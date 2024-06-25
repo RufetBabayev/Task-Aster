@@ -1,32 +1,39 @@
-.asterNews {
-  font-weight: 700;
-  font-size: 1.1rem;
+.text--xxs {
+  font-size: 0.047rem;
 }
-.bothText {
-  font-weight: 700;
-  font-size: 0.9rem;
-}
-.top--text {
-  font-weight: 400;
-  font-size: 0.9rem;
-}
-.covid19 {
-  font-weight: 500;
-  font-size: 0.9rem;
-}
-.topStories {
-  font-weight: 700;
-  font-size: 1.25rem;
-}
-.textTitle {
-  font-weight: 500;
-  font-size: 1.06rem;
-}
-.profileName {
-  font-weight: 400;
+.text--xs {
   font-size: 0.875rem;
 }
-.textSpan {
-  font-weight: 400;
-  font-size: 0.75px;
+.text--sm {
+  font-size: 0.9rem;
 }
+.text--md {
+  font-size: 1.1rem;
+}
+
+.text--xl {
+  font-size: 1.06rem;
+}
+
+.text--lg {
+  font-size: 1.25rem;
+}
+
+.font--400 {
+  font-weight: 400;
+}
+.font--500 {
+  font-weight: 500;
+}
+.font--600 {
+  font-weight: 600;
+}
+.font--700 {
+  font-weight: 700;
+}
+
+/* 
+burada font weightler font size-lerden ayrdim ve adlandrmani duzeltdim
+1 klas 1 işi görməlidi bacardığın qeder
+
+*/

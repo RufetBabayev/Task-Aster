@@ -1,4 +1,4 @@
-.imgBox-big {
+/* .imgBox-big {
   width: 774px;
   height: 435px;
 }
@@ -11,6 +11,22 @@
   height: 132px;
 }
 .imgProfile {
+  width: 70px;
+  height: 70px;
+} */
+.img-3xl {
+  width: 774px;
+  height: 435px;
+}
+.img--md {
+  width: 172px;
+  height: 132px;
+}
+.img--sm {
+  width: 134px;
+  height: 132px;
+}
+.img--xs {
   width: 70px;
   height: 70px;
 }
