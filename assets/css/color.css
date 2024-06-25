@@ -1,7 +1,9 @@
 :root {
-  --bgcolor-input: #ecf5f8;
-  --bgcolor-btn-1: #2f9ff8;
-  --bgcolo-btn-2: #072d4b;
-  --bgcolor-white: #ffff;
-  --bgcolor-yellow: #ffe8c5;
+  --color-light-white: #ecf5f8;
+  --color--blue: #2f9ff8;
+  --color--dark: #072d4b;
+  --color-white: #ffff;
+  --color-light-yellow: #ffe8c5;
 }
+
+/* rengleri rengin ozune gore adlandr.  evveldeki bg-lari sildim cunki sen bu rengleri tekce backgroundda yox yazilarda da istifade etme ehtimalin ola biler */
