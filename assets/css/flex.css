@@ -16,12 +16,23 @@
 .justifyEvenly {
   justify-content: space-evenly;
 }
-.textAlign {
+
+.text-center {
   text-align: center;
 }
-.center {
+
+/* .textAlign {
+  text-align: center;
+} */
+/* .center {
   display: flex;
   justify-content: center;
-  text-align: center;
+  text-align: center; ehtiac yoxdu
+  align-items: center;
+} */
+
+.d-flex-center {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
