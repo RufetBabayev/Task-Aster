@@ -1,7 +1,1 @@
-1.text css
-2.button
-3flex css
-4 color
-5 icon
-6 padding
-7 margin
+4cu gune senden ilk sehifenin skletini tehvil alacam sol ve sag olaraq iki hisseye bol kecen defe izah etdiyim kimi. ve sol terefi bitir kategoriayalar yazilan hisse
