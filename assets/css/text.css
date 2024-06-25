@@ -1,0 +1,32 @@
+.asterNews {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.bothText {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.top--text {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.covid19 {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.topStories {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.textTitle {
+  font-weight: 500;
+  font-size: 1.06rem;
+}
+.profileName {
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+.textSpan {
+  font-weight: 400;
+  font-size: 0.75px;
+}

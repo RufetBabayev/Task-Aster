@@ -1,0 +1,27 @@
+.flex {
+  display: flex;
+}
+.alingItems {
+  align-items: center;
+}
+.justifyCenter {
+  justify-content: center;
+}
+.justifyBetween {
+  justify-content: space-between;
+}
+.justifyAround {
+  justify-content: space-around;
+}
+.justifyEvenly {
+  justify-content: space-evenly;
+}
+.textAlign {
+  text-align: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
