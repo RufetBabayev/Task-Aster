@@ -1,0 +1,66 @@
+.logo--container {
+  width: 260px;
+  h1 {
+    color: var(--color-darkblue);
+  }
+}
+.logo {
+  object-fit: contain;
+}
+nav {
+  li {
+    font-size: 1.5rem;
+  }
+}
+.nav--home {
+  position: relative;
+}
+.home {
+  width: 243px;
+  height: 50px;
+  border: 1px solid transparent;
+  border-radius: 0 37px 37px 0;
+  background-color: rgb(47, 159, 248, 0.1);
+}
+.nav--covid19 {
+  position: relative;
+}
+.covid19::before {
+  content: "";
+  position: absolute;
+  width: 243px;
+  height: 0.5px;
+  left: -30px;
+  top: 35px;
+  background-color: grey;
+}
+
+.covid19::after {
+  content: "";
+  position: absolute;
+  width: 243px;
+  height: 0.5px;
+  left: -30px;
+  bottom: 0;
+  background-color: grey;
+}
+
+.subscribe {
+  width: 270px;
+  height: 113px;
+  background-color: var(--color--skyblue);
+  margin-top: 9rem;
+  border-radius: 4px;
+  color: var(--color-white);
+  i {
+    font-size: 1.5rem;
+    padding: 1.3rem 0 0 2.25rem;
+  }
+  p {
+    padding: 1.7rem 0 0 1.5rem;
+    white-space: nowrap;
+  }
+  h2 {
+    display: block;
+  }
+}

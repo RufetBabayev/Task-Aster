@@ -1,3 +1,4 @@
+@import url(../css/font.css);
 @import url(../css/button.css);
 @import url(../css/color.css);
 @import url(../css/flex.css);
@@ -7,4 +8,4 @@
 @import url(../css/padding.css);
 @import url(../css/text.css);
 @import url(../css/reset.css);
-@import url(../css/aside.css);
+@import url(../css/aside--left.css);

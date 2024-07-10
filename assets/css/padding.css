@@ -53,6 +53,12 @@
 .pr-32 {
   padding-right: 2rem;
 }
+.px-32 {
+  padding: 0 2rem;
+}
+.py-32 {
+  padding: 2rem 0;
+}
 .pt-32 {
   padding-top: 2rem;
 }

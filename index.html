@@ -4,37 +4,77 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- css -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- font -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
   </head>
   <body>
     <main>
-      <header class="flex justifyBetween">
-        <figure class="flex">
-          <img src="#" />
-          <p>Aster News</p>
-        </figure>
-        <div>
-          <input type="search" />
-          <a href="#">lattest news on covid 19</a>
+      <aside>
+        <div class="logo--container flex alingItems pt-32 pl-32">
+          <figure class="logo icon--md">
+            <img src="./assets/img/Group 2 1.png" alt="logo" />
+          </figure>
+          <h1 class="pl-16 font--700">Aster News</h1>
         </div>
-        <div><p>icon my profile</p></div>
-      </header>
-      <aside class="flex">
-        <ul>
-          <li>top stories</li>
-          <li>Around the World</li>
-          <li>Business</li>
-          <li>Health</li>
-          <li>Covid 19</li>
-          <li>Entertainment</li>
-          <li>Sports</li>
-          <li>Discussion</li>
-          <li>Notification</li>
-          <li>News Feed Settings</li>
-        </ul>
-        <div class="asideBox flex-column"><p>Subscribe to Premium</p></div>
+        <nav>
+          <ul class="pt-32">
+            <div class="nav--home">
+              <li class="home flex alingItems pl-32 pt-32">
+                <i class="fa-solid fa-house"></i>
+                <p class="text--sm pl-16 font--700">Top Stories</p>
+              </li>
+            </div>
+            <li class="flex alingItems pl-32 pt-32">
+              <i class="fa-solid fa-globe"></i>
+              <p class="text--sm pl-16 font--700">Around the World</p>
+            </li>
+            <li class="flex alingItems pl-32 pt-32">
+              <i class="fa-solid fa-briefcase"></i>
+              <p class="text--sm pl-16 font--700">Business</p>
+            </li>
+            <li class="flex alingItems pl-32 pt-32">
+              <i class="fa-solid fa-file-waveform"></i>
+              <p class="text--sm pl-16 font--700">Health</p>
+            </li>
+            <div class="nav--covid19 py-32">
+              <li class="covid19 flex alingItems pl-32 pt-32">
+                <i class="fa-solid fa-shield-virus"></i>
+                <p class="text--sm pl-16 font--700">Covid 19</p>
+              </li>
+            </div>
+            <li class="flex alingItems pl-32 pt-32">
+              <i class="fa-regular fa-circle-play"></i>
+              <p class="text--sm pl-16 font--700">Entertainment</p>
+            </li>
+            <li class="flex alingItems pl-32 pt-32">
+              <i class="fa-solid fa-medal"></i>
+              <p class="text--sm pl-16 font--700">Sports</p>
+            </li>
+            <li class="flex alingItems pl-32 pt-32">
+              <i class="fa-regular fa-comment"></i>
+              <p class="text--sm pl-16 font--700">Discussion</p>
+            </li>
+            <li class="flex alingItems pl-32 pt-32">
+              <i class="fa-regular fa-bell"></i>
+              <p class="text--sm pl-16 font--700">Notification</p>
+            </li>
+            <li class="flex alingItems pl-32 pt-32">
+              <i class="fa-solid fa-gear"></i>
+              <p class="text--sm pl-16 font--700">News Feed Settings</p>
+            </li>
+          </ul>
+          <div class="flex subscribe ml-16">
+            <i class="fa-solid fa-gift"></i>
+            <p class="font--400">Subscribe to Premium</p>
+            <h2 class="">$8/m</h2>
+          </div>
+        </nav>
       </aside>
-      <section><h2>Top Stories for you</h2></section>
     </main>
   </body>
 </html>
