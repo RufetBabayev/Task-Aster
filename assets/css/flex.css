@@ -21,18 +21,11 @@
   text-align: center;
 }
 
-/* .textAlign {
-  text-align: center;
-} */
-/* .center {
-  display: flex;
-  justify-content: center;
-  text-align: center; ehtiac yoxdu
-  align-items: center;
-} */
-
 .d-flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.flex-column {
+  flex-direction: column;
 }

@@ -1,8 +1,3 @@
-/* .btn--follow {
-  width: 116px;
-  height: 32px;
-} 
-  */
 .btn--md {
   width: 116px;
   height: 32px;
@@ -12,36 +7,13 @@
   width: 110px;
   height: 38px;
 }
-/* .btn--items {
-  height: 30px;
-} ---? bu ne klasidi anlamdim tekce height verilib width vermirsense sil bunu*/
+
 .btn--lg {
   width: 244px;
   height: 38px;
 }
-/* .btn--subscribe-1 {
-  width: 244px;
-  height: 38px;
-} */
-/* .btn--subscribe-2 {
-  width: 116px;
-  height: 38px;
-} */
-/* .btn--showmore {
-  width: 118px;
-  height: 38px;
-} */
-/* .btn--covid19 {
-  width: 256px;
-  height: 46px;
-} */
+
 .btn--xl {
   width: 256px;
   height: 46px;
 }
-
-/* netice:
-
-adlandirmalari normalda paltar razmerleri nedise ele adlandrilir xs---den 5xle qeder v.s
-cunki bu yazdign klaslar helper klaslari sayilir sene her yerde lazm ola biler. width-e gore adlanrdlr esasen en balaca sm olur.
-*/
