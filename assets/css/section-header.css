@@ -2,11 +2,9 @@ header {
   position: sticky;
   top: 0;
 }
-/* center klasinin adini anlamli birseyle deis. baxanda bilinsin ne center ? */
-.center {
+.section-container {
   flex: 1;
 }
-
 .src-container {
   background-color: var(--color-light-white);
 }
@@ -20,13 +18,12 @@ header {
 .button-covid19 {
   border: 0.2px solid #072d4b;
   border-radius: 4px;
-  /* #f4f9f8 bu rengi color css-e cxar. cox istfade olundu uje   */
-  background-color: #f4f9f8;
+  background-color: var(--color-lightgray);
 }
 .src-covid19 {
   color: var(--color--skyblue);
 }
 .src-profile {
   border: none;
-  background-color: #f4f9f8;
+  background-color: var(--color-lightgray);
 }

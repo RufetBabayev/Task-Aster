@@ -35,7 +35,6 @@
   position: relative;
 }
 
-/* burada ortaq css ozellikleri birlesdirirem */
 .covid19::after,
 .covid19::before {
   content: "";
