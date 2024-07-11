@@ -34,24 +34,23 @@
 .nav--covid19 {
   position: relative;
 }
+
+/* burada ortaq css ozellikleri birlesdirirem */
+.covid19::after,
 .covid19::before {
   content: "";
   position: absolute;
   width: 243px;
   height: 0.5px;
   left: -30px;
-  top: 45px;
   background-color: grey;
 }
 
+.covid19::before {
+  top: 45px;
+}
 .covid19::after {
-  content: "";
-  position: absolute;
-  width: 243px;
-  height: 0.5px;
-  left: -30px;
   bottom: 15px;
-  background-color: grey;
 }
 
 .subscribe {
