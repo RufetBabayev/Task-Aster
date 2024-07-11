@@ -1,13 +1,19 @@
-.btn--md {
+button {
+  cursor: pointer;
+}
+.btn--sm {
   width: 116px;
   height: 32px;
 }
 
-.btn--sm {
+.btn--xs {
   width: 110px;
   height: 38px;
 }
-
+.btn--md {
+  width: 156px;
+  height: 24px;
+}
 .btn--lg {
   width: 244px;
   height: 38px;

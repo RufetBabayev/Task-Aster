@@ -7,20 +7,29 @@
 .logo {
   object-fit: contain;
 }
-nav {
-  li {
-    font-size: 1.5rem;
-  }
-}
-.nav--home {
-  position: relative;
-}
+
 .home {
+  color: var(--color--skyblue);
+}
+.nav--active {
   width: 243px;
   height: 50px;
   border: 1px solid transparent;
+  position: relative;
   border-radius: 0 37px 37px 0;
   background-color: rgb(47, 159, 248, 0.1);
+}
+
+.nav--active::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  left: 10px;
+  top: 50%;
+  background-color: var(--color--skyblue);
 }
 .nav--covid19 {
   position: relative;
@@ -31,7 +40,7 @@ nav {
   width: 243px;
   height: 0.5px;
   left: -30px;
-  top: 35px;
+  top: 45px;
   background-color: grey;
 }
 
@@ -41,26 +50,21 @@ nav {
   width: 243px;
   height: 0.5px;
   left: -30px;
-  bottom: 0;
+  bottom: 15px;
   background-color: grey;
 }
 
 .subscribe {
-  width: 270px;
+  margin-top: 9rem;
+  width: 227px;
   height: 113px;
   background-color: var(--color--skyblue);
-  margin-top: 9rem;
-  border-radius: 4px;
   color: var(--color-white);
-  i {
-    font-size: 1.5rem;
-    padding: 1.3rem 0 0 2.25rem;
-  }
-  p {
-    padding: 1.7rem 0 0 1.5rem;
-    white-space: nowrap;
-  }
-  h2 {
-    display: block;
-  }
+}
+
+.subscribe--button {
+  color: var(--color-white);
+  background-color: var(--color-darkblue);
+  border: 1px solid transparent;
+  border-radius: 4px;
 }

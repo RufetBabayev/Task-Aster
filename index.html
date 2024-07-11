@@ -13,9 +13,10 @@
     />
   </head>
   <body>
-    <main>
+    <main class="flex">
+      <!-- aside-left -->
       <aside>
-        <div class="logo--container flex alingItems pt-32 pl-32">
+        <div class="logo--container flex alingItems pt-16 pl-32">
           <figure class="logo icon--md">
             <img src="./assets/img/Group 2 1.png" alt="logo" />
           </figure>
@@ -23,58 +24,95 @@
         </div>
         <nav>
           <ul class="pt-32">
-            <div class="nav--home">
-              <li class="home flex alingItems pl-32 pt-32">
-                <i class="fa-solid fa-house"></i>
-                <p class="text--sm pl-16 font--700">Top Stories</p>
-              </li>
-            </div>
+            <li class="nav--active flex alingItems pl-32">
+              <i class="home fa-solid fa-house icon--sm"></i>
+              <p class="home text--sm pl-16 font--700">Top Stories</p>
+            </li>
+
             <li class="flex alingItems pl-32 pt-32">
-              <i class="fa-solid fa-globe"></i>
+              <i class="fa-solid fa-globe icon--sm"></i>
               <p class="text--sm pl-16 font--700">Around the World</p>
             </li>
             <li class="flex alingItems pl-32 pt-32">
-              <i class="fa-solid fa-briefcase"></i>
+              <i class="fa-solid fa-briefcase icon--sm"></i>
               <p class="text--sm pl-16 font--700">Business</p>
             </li>
             <li class="flex alingItems pl-32 pt-32">
-              <i class="fa-solid fa-file-waveform"></i>
+              <i class="fa-solid fa-file-waveform icon--sm"></i>
               <p class="text--sm pl-16 font--700">Health</p>
             </li>
             <div class="nav--covid19 py-32">
               <li class="covid19 flex alingItems pl-32 pt-32">
-                <i class="fa-solid fa-shield-virus"></i>
+                <i class="fa-solid fa-shield-virus icon--sm"></i>
                 <p class="text--sm pl-16 font--700">Covid 19</p>
               </li>
             </div>
             <li class="flex alingItems pl-32 pt-32">
-              <i class="fa-regular fa-circle-play"></i>
+              <i class="fa-regular fa-circle-play icon--sm"></i>
               <p class="text--sm pl-16 font--700">Entertainment</p>
             </li>
             <li class="flex alingItems pl-32 pt-32">
-              <i class="fa-solid fa-medal"></i>
+              <i class="fa-solid fa-medal icon--sm"></i>
               <p class="text--sm pl-16 font--700">Sports</p>
             </li>
             <li class="flex alingItems pl-32 pt-32">
-              <i class="fa-regular fa-comment"></i>
+              <i class="fa-regular fa-comment icon--sm"></i>
               <p class="text--sm pl-16 font--700">Discussion</p>
             </li>
             <li class="flex alingItems pl-32 pt-32">
-              <i class="fa-regular fa-bell"></i>
+              <i class="fa-regular fa-bell icon--sm"></i>
               <p class="text--sm pl-16 font--700">Notification</p>
             </li>
             <li class="flex alingItems pl-32 pt-32">
-              <i class="fa-solid fa-gear"></i>
+              <i class="fa-solid fa-gear icon--sm"></i>
               <p class="text--sm pl-16 font--700">News Feed Settings</p>
             </li>
           </ul>
-          <div class="flex subscribe ml-16">
-            <i class="fa-solid fa-gift"></i>
-            <p class="font--400">Subscribe to Premium</p>
-            <h2 class="">$8/m</h2>
-          </div>
         </nav>
+        <div class="subscribe flex flex-column justifyEvenly m-16 p-16">
+          <div class="flex alingItems pb-8">
+            <i class="fa-solid fa-gift icon--sm"></i>
+            <span class="font--400 pl-16 nowrap">Subscribe to Premium</span>
+          </div>
+          <div class="flex">
+            <span class="font--700 text--xxl"
+              >$8 <small class="font--400 text--sm">/m</small></span
+            >
+            <button class="subscribe--button btn--sm ml-16">Upgrade</button>
+          </div>
+        </div>
       </aside>
+      <section class="center">
+        <!-- header -->
+        <header class="flex justifyBetween">
+          <div class="flex alingItems mt-16">
+            <div class="src-container">
+              <input
+                class="src-input p-16"
+                placeholder="Search for news.."
+                type="text"
+              />
+              <i class="fa-solid fa-magnifying-glass icon--xs"></i>
+            </div>
+            <button
+              class="button-covid19 flex btn--xl alingItems justifyEvenly ml-32"
+            >
+              <p class="font--400">
+                Latest news on
+                <span class="src-covid19 font--500"> Covid-19 </span>
+              </p>
+              <i class="fa-solid fa-arrow-right icon--xs"></i>
+            </button>
+          </div>
+          <button
+            class="src-profile btn--md flex alingItems justifyEvenly mt-32"
+          >
+            <i class="fa-regular fa-user icon--sm"></i>
+            <span class="font--400">My Profile</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+        </header>
+      </section>
     </main>
   </body>
 </html>

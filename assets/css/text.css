@@ -18,6 +18,9 @@
 .text--lg {
   font-size: 1.25rem;
 }
+.text--xxl {
+  font-size: 1.8rem;
+}
 
 .font--400 {
   font-weight: 400;
