@@ -9,4 +9,6 @@
 @import url(../css/text.css);
 @import url(../css/reset.css);
 @import url(../css/aside--left.css);
-@import url(../css/section-header.css);
+@import url(../css/section-center.css);
+@import url(../css/aside--right.css);
+@import url(../css/grid.css);
