@@ -2,7 +2,7 @@
   font-size: 0.047rem;
 }
 .text--xs {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
 }
 .text--sm {
   font-size: 0.9rem;
@@ -33,4 +33,18 @@
 }
 .font--700 {
   font-weight: 700;
+}
+
+.text-opacity-60 {
+  opacity: 60%;
+}
+.text-opacity-40 {
+  opacity: 40%;
+}
+
+.text-width-md {
+  width: 610px;
+}
+.text-width-sm {
+  width: 210px;
 }
