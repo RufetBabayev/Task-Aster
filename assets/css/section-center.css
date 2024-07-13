@@ -135,7 +135,6 @@ header {
 
 .parent-box-2 {
   display: grid;
-
   grid-gap: 15px;
 }
 .parent-box-2 > div {

@@ -52,7 +52,7 @@
   bottom: 15px;
 }
 
-.subscribe {
+.upgrade {
   margin-top: 9rem;
   width: 227px;
   height: 113px;
@@ -60,7 +60,7 @@
   color: var(--color-white);
 }
 
-.subscribe--button {
+.upgrade--button {
   color: var(--color-white);
   background-color: var(--color-darkblue);
   border: 1px solid transparent;

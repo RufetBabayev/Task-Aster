@@ -19,7 +19,7 @@
   font-size: 1.25rem;
 }
 .text--xxl {
-  font-size: 1.8rem;
+  font-size: 1.625rem;
 }
 
 .font--400 {
@@ -40,6 +40,9 @@
 }
 .text-opacity-40 {
   opacity: 40%;
+}
+.text-opacity-30 {
+  opacity: 30%;
 }
 .text-opacity-20 {
   opacity: 20%;

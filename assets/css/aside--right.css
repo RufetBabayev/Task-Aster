@@ -1,4 +1,75 @@
 .aside-right {
   width: 555px;
-  background-color: red;
+  padding-top: 3rem;
+}
+
+.parent-right {
+  display: grid;
+  grid-gap: 10px;
+}
+.parent-right > div {
+  background-color: var(--color-white);
+}
+
+.div17 {
+  grid-area: 1 / 1 / 2 / 4;
+}
+.div18 {
+  grid-area: 2 / 1 / 3 / 4;
+}
+.div19 {
+  grid-area: 3 / 1 / 4 / 4;
+}
+.div20 {
+  grid-area: 4 / 1 / 5 / 4;
+}
+
+.fa-circle-xmark {
+  position: relative;
+}
+.fa-circle-xmark::after {
+  content: "";
+  position: absolute;
+  width: 508px;
+  height: 0.5px;
+  right: -10px;
+  top: 30px;
+  background-color: gray;
+}
+
+.know-btn {
+  border: 0.1px solid var(--color--skyblue);
+  border-radius: 4px;
+  background-color: var(--color-white);
+  color: var(--color--skyblue);
+}
+
+.icon-right-circle {
+  color: var(--color--skyblue);
+}
+
+.fa-circle-chevron-right {
+  position: relative;
+}
+.fa-circle-chevron-right::after {
+  content: "";
+  position: absolute;
+  width: 508px;
+  height: 0.5px;
+  right: -10px;
+  top: 40px;
+  background-color: gray;
+}
+
+.email {
+  width: 244px;
+  border: 1px solid var(--color--dark);
+  background-color: var(--color-lightgray);
+}
+
+.subscribe--button {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: var(--color-white);
+  background-color: var(--color--skyblue);
 }
