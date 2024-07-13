@@ -1,6 +1,9 @@
 header {
   position: sticky;
   top: 0;
+  /* bunlar elave olundu */
+  background-color: #f4f9f8;
+  z-index: 10;
 }
 .section-container {
   flex: 1;
