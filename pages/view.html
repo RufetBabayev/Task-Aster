@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <!-- font -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main class="flex">
+      <!-- aside-left -->
+      <aside>
+        <div class="logo--container flex alingItems pt-16 pl-32">
+          <figure class="logo icon--md">
+            <img src="../assets/img/Group 2 1.png" alt="logo" />
+          </figure>
+          <h1 class="pl-16 font--700">Aster News</h1>
+        </div>
+        <nav>
+          <ul class="pt-32">
+            <li class="nav--active flex alingItems pl-32">
+              <i class="home fa-solid fa-house icon--sm"></i>
+              <p class="home text--sm pl-16 font--700">Top Stories</p>
+            </li>
+
+            <li class="flex alingItems pl-32 pt-16">
+              <i class="fa-solid fa-globe icon--sm"></i>
+              <p class="text--sm pl-16 font--700">Around the World</p>
+            </li>
+            <li class="flex alingItems pl-32 pt-32">
+              <i class="fa-solid fa-briefcase icon--sm"></i>
+              <p class="text--sm pl-16 font--700">Business</p>
+            </li>
+            <li class="flex alingItems pl-32 pt-32">
+              <i class="fa-solid fa-file-waveform icon--sm"></i>
+              <p class="text--sm pl-16 font--700">Health</p>
+            </li>
+            <div class="nav--covid19 py-32">
+              <li class="covid19 flex alingItems pl-32 pt-32">
+                <i class="fa-solid fa-shield-virus icon--sm"></i>
+                <p class="text--sm pl-16 font--700">Covid 19</p>
+              </li>
+            </div>
+            <li class="flex alingItems pl-32 pt-32">
+              <i class="fa-regular fa-circle-play icon--sm"></i>
+              <p class="text--sm pl-16 font--700">Entertainment</p>
+            </li>
+            <li class="flex alingItems pl-32 pt-32">
+              <i class="fa-solid fa-medal icon--sm"></i>
+              <p class="text--sm pl-16 font--700">Sports</p>
+            </li>
+            <li class="flex alingItems pl-32 pt-32">
+              <i class="fa-regular fa-comment icon--sm"></i>
+              <p class="text--sm pl-16 font--700">Discussion</p>
+            </li>
+            <li class="flex alingItems pl-32 pt-32">
+              <i class="fa-regular fa-bell icon--sm"></i>
+              <p class="text--sm pl-16 font--700">Notification</p>
+            </li>
+            <li class="flex alingItems pl-32 pt-32">
+              <i class="fa-solid fa-gear icon--sm"></i>
+              <p class="text--sm pl-16 font--700">News Feed Settings</p>
+            </li>
+          </ul>
+        </nav>
+        <div class="upgrade flex flex-column justifyEvenly m-16 p-16">
+          <div class="flex alingItems pb-8">
+            <i class="fa-solid fa-gift icon--sm"></i>
+            <span class="font--400 pl-16 nowrap">Subscribe to Premium</span>
+          </div>
+          <div class="flex">
+            <span class="font--700 text--xxl"
+              >$8 <small class="font--400 text--sm">/m</small></span
+            >
+            <button class="upgrade--button btn--sm ml-16">Upgrade</button>
+          </div>
+        </div>
+      </aside>
+      <section class="section-container">
+        <!-- header -->
+        <header class="flex justifyBetween">
+          <div class="flex alingItems mt-16">
+            <div class="src-container">
+              <input
+                class="src-input p-16"
+                placeholder="Search for news.."
+                type="text"
+              />
+              <i class="fa-solid fa-magnifying-glass icon--xs p-16"></i>
+            </div>
+            <button
+              class="button-covid19 flex btn--xl alingItems justifyEvenly ml-32"
+            >
+              <p class="font--400">
+                Latest news on
+                <span class="src-covid19 font--500"> Covid-19 </span>
+              </p>
+              <i class="fa-solid fa-arrow-right icon--xs"></i>
+            </button>
+          </div>
+          <button
+            class="src-profile btn--md flex alingItems justifyEvenly mt-32"
+          >
+            <i class="fa-regular fa-user icon--sm"></i>
+            <span class="font--400">My Profile</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+        </header>
+        <!-- center-nav -->
+        <div class="flex justifyBetween mt-32 container--content">
+          view
+          <aside class="aside-right">
+            <div class="parent-right">
+              <!-- div 17 -->
+              <div class="div17 p-32 grid-xs">
+                <div class="flex justifyBetween">
+                  <p>Coimbatore, Tamil Nadu</p>
+                  <i class="fa-regular fa-circle-xmark icon--xs"></i>
+                </div>
+                <div class="pt-32 flex justifyBetween">
+                  <div>
+                    <p class="pb-8">Sunny</p>
+                    <p class="font--700 text--xxl">
+                      31 <sup class="text--xxs">o</sup> c
+                    </p>
+                  </div>
+                  <div>
+                    <figure><img src="../assets/img/sun.svg" alt="" /></figure>
+                  </div>
+                </div>
+                <div class="flex pt-16">
+                  <p class="pr-32 text--xxs">Celsius</p>
+                  <p class="text--xxs text-opacity-30">Fahrenheit</p>
+                </div>
+              </div>
+              <!-- div 18 -->
+              <div class="div18 grid-xs p-32">
+                <div class="flex">
+                  <i class="fa-solid fa-feather pr-16 icon--sm"></i>
+                  <p>Become a Story Writer</p>
+                </div>
+                <div class="flex justifyBetween pt-16">
+                  <p class="text--xxs text-opacity-60">
+                    Contribute stories and start earning.
+                  </p>
+                  <button class="know-btn btn--xs">Know More</button>
+                </div>
+              </div>
+              <!-- div 19 -->
+              <div class="div19 grid-xs p-32">
+                <div class="flex justifyBetween">
+                  <div class="flex">
+                    <i class="fa-solid fa-newspaper icon--sm pr-16"></i>
+                    <p>Quick Bytes</p>
+                  </div>
+                  <div>
+                    <i
+                      class="fa-solid fa-circle-chevron-left icon--sm pr-8 icon-right-circle text-opacity-20"
+                    ></i>
+                    <i
+                      class="fa-solid fa-circle-chevron-right icon--sm icon-right-circle"
+                    ></i>
+                  </div>
+                </div>
+                <div class="pt-32 text-opacity-60">
+                  <p>
+                    The price of petrol remained unchanged on July 6 after
+                    reaching a new record high on the previous day, according to
+                    a price notification by state-owned fuel retailers. The
+                    diesel price remained stable for the second consecutive day.
+                  </p>
+                  <p class="pt-32">
+                    The increase on July 5, 35th in two months, took the petrol
+                    price in Delhi closer to Rs 100 per litre-mark. The petrol
+                    price in the national capital soared to Rs 99.9 a litre and
+                    diesel was priced at Rs 89.4 per litre, according to Bharat
+                    Petroleum's price listing.
+                  </p>
+                </div>
+              </div>
+              <!-- div 20 -->
+              <div class="div20 grid-xs p-32 flex flex-column">
+                <div><p>Subscribe to our newsletter</p></div>
+                <div>
+                  <input
+                    class="email p-8 mt-16"
+                    type="text"
+                    placeholder="Enter Email"
+                  />
+                </div>
+                <button class="subscribe--button mt-32 btn--lg">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
