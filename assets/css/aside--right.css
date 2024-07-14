@@ -1,5 +1,5 @@
 .aside-right {
-  width: 555px;
+  width: 30%;
   padding-top: 3rem;
 }
 
@@ -30,7 +30,7 @@
 .fa-circle-xmark::after {
   content: "";
   position: absolute;
-  width: 508px;
+  width: 265px;
   height: 0.5px;
   right: -10px;
   top: 30px;
@@ -54,7 +54,7 @@
 .fa-circle-chevron-right::after {
   content: "";
   position: absolute;
-  width: 508px;
+  width: 265px;
   height: 0.5px;
   right: -10px;
   top: 40px;

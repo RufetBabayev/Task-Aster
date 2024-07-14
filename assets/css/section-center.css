@@ -4,6 +4,12 @@ header {
   background-color: #f4f9f8;
   z-index: 10;
 }
+.container--content {
+  gap: 20px;
+}
+/* .center--content {
+  width: 70%;
+} */
 .section-container {
   flex: 1;
 }
@@ -46,7 +52,7 @@ header {
 
 .parent-box-1 {
   display: grid;
-  /* grid-template-columns: repeat(5, 1fr); */
+  grid-template-columns: repeat(4, 1fr);
   /* grid-template-rows: repeat(5, 1fr); */
   grid-gap: 15px;
 }
@@ -135,6 +141,7 @@ header {
 
 .parent-box-2 {
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 15px;
 }
 .parent-box-2 > div {
