@@ -1,6 +1,7 @@
 .img-3xl {
-  width: 774px;
-  height: 435px;
+  width: 1100px;
+  height: 625px;
+  object-fit: contain;
 }
 .img--md {
   width: 172px;
