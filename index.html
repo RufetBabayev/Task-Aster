@@ -14,6 +14,7 @@
   </head>
   <body>
     <main class="flex">
+      <div id="overlay" class="d-none"></div>
       <!-- aside-left -->
       <aside>
         <div class="logo--container flex alingItems pt-16 pl-32">
@@ -23,53 +24,7 @@
           <h1 class="pl-16 font--700">Aster News</h1>
         </div>
         <nav>
-          <ul class="pt-32">
-            <li class="nav--active flex alingItems pl-32">
-              <a class="flex alingItems" href="./pages/view.html">
-                <i class="home fa-solid fa-house icon--sm"></i>
-                <p class="home text--sm pl-16 font--700">Top Stories</p>
-              </a>
-            </li>
-
-            <li class="flex alingItems pl-32 pt-16">
-              <i class="fa-solid fa-globe icon--sm"></i>
-              <p class="text--sm pl-16 font--700">Around the World</p>
-            </li>
-            <li class="flex alingItems pl-32 pt-32">
-              <i class="fa-solid fa-briefcase icon--sm"></i>
-              <p class="text--sm pl-16 font--700">Business</p>
-            </li>
-            <li class="flex alingItems pl-32 pt-32">
-              <i class="fa-solid fa-file-waveform icon--sm"></i>
-              <p class="text--sm pl-16 font--700">Health</p>
-            </li>
-            <div class="nav--covid19 py-32">
-              <li class="covid19 flex alingItems pl-32 pt-32">
-                <i class="fa-solid fa-shield-virus icon--sm"></i>
-                <p class="text--sm pl-16 font--700">Covid 19</p>
-              </li>
-            </div>
-            <li class="flex alingItems pl-32 pt-32">
-              <i class="fa-regular fa-circle-play icon--sm"></i>
-              <p class="text--sm pl-16 font--700">Entertainment</p>
-            </li>
-            <li class="flex alingItems pl-32 pt-32">
-              <i class="fa-solid fa-medal icon--sm"></i>
-              <p class="text--sm pl-16 font--700">Sports</p>
-            </li>
-            <li class="flex alingItems pl-32 pt-32">
-              <i class="fa-regular fa-comment icon--sm"></i>
-              <p class="text--sm pl-16 font--700">Discussion</p>
-            </li>
-            <li class="flex alingItems pl-32 pt-32">
-              <i class="fa-regular fa-bell icon--sm"></i>
-              <p class="text--sm pl-16 font--700">Notification</p>
-            </li>
-            <li class="flex alingItems pl-32 pt-32">
-              <i class="fa-solid fa-gear icon--sm"></i>
-              <p class="text--sm pl-16 font--700">News Feed Settings</p>
-            </li>
-          </ul>
+          <ul id="categories" class="pt-32"></ul>
         </nav>
         <div class="upgrade flex flex-column justifyEvenly m-16 p-16">
           <div class="flex alingItems pb-8">
@@ -106,14 +61,15 @@
               <i class="fa-solid fa-arrow-right icon--xs"></i>
             </button>
           </div>
-          <button
-            class="src-profile btn--md flex alingItems justifyEvenly mt-32"
-          >
-            <i class="fa-regular fa-user icon--sm"></i>
-            <span class="font--400">My Profile</span>
-            <i class="fa-solid fa-chevron-down"></i>
-          </button>
+          <button id="signInBtn" class="btn--xs mr-48 mt-16">Giriş</button>
         </header>
+        <div id="userProfile" class="flex d-none">
+          <figure>
+            <img id="userImg" src="./assets/img/profile 1.png" alt="" />
+          </figure>
+          <p id="username">John Doe</p>
+          <button id="logout">logout</button>
+        </div>
         <!-- center-nav -->
         <div class="flex justifyBetween mt-32 container--content">
           <div class="center--content">
@@ -127,272 +83,7 @@
               <button>Nano Technology</button>
               <button>Mental Health</button>
             </div>
-            <div class="parent-box-1 mt-32">
-              <!-- div1 -->
-              <div class="div1 flex p-16">
-                <div class="flex flex-column justifyAround">
-                  <p class="font--500 text--xl">
-                    Samsung Galaxy F22 launched in India: Price, features, other
-                    details
-                  </p>
-
-                  <p class="text-opacity-60">
-                    Samsung Galaxy F22 has been launched in India. The new
-                    smartphone has been priced in the mid-range segment. The new
-                    smartphone is powered by a MediaTek chipset and features a
-                    high refresh rate AMOLED display.
-                  </p>
-                  <div class="position-relative flex alingItems">
-                    <div class="pr-32 text-opacity-40">
-                      <span>The Mint</span>
-                      <span class="minute--point-md px-32">15 mins ago</span>
-                    </div>
-                    <div class="box-end pl-32">
-                      <i class="fa-solid fa-arrow-up-from-bracket pr-8"></i>
-                      <span class="pr-32">Share</span>
-                      <i class="fa-solid fa-shield pr-8"></i>
-                      <span>Read Later</span>
-                    </div>
-                  </div>
-                </div>
-                <figure class="flex alingItems pl-32">
-                  <img
-                    class="img--md pr-8"
-                    src="./assets/img/Rectangle 16.png"
-                    alt=""
-                  />
-                </figure>
-              </div>
-              <!-- div2 -->
-              <div class="div2">
-                <div class="flex flex-column justifyAround p-16">
-                  <div class="flex mt-16">
-                    <div>
-                      <p class="font--500 text--xl mb-16">
-                        Battlegrounds Mobile India iOS release date
-                      </p>
-
-                      <p class="text-opacity-60">
-                        The reason behind their disappointment is that iPhone
-                        users have been..
-                      </p>
-                    </div>
-                    <div class="pl-32">
-                      <figure>
-                        <img
-                          class="img--sm"
-                          src="./assets/img/battleground.jpg"
-                          alt=""
-                        />
-                      </figure>
-                    </div>
-                  </div>
-                  <div class="position-relative flex alingItems mt-8">
-                    <div class="pr-4 text-opacity-40">
-                      <span class="text--xs">Sport Biz</span>
-                      <span class="minute--point-sm px-16 text--xs"
-                        >42 mins ago</span
-                      >
-                    </div>
-                    <div class="box-end pl-16">
-                      <i class="fa-solid fa-arrow-up-from-bracket pr-8"></i>
-                      <span class="pr-32 text--xs">Share</span>
-                      <i class="fa-solid fa-shield pr-8"></i>
-                      <span class="text--xs">Read Later</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- div3 -->
-              <div class="div3">
-                <div class="flex flex-column justifyAround p-16">
-                  <div class="flex mt-16">
-                    <div>
-                      <p class="font--500 text--xl mb-16">
-                        Instagram working on ‘Exclusive Stories’ for subscribers
-                      </p>
-
-                      <p class="text-opacity-60">
-                        Instagram could be jumping on the paid subscription..
-                      </p>
-                    </div>
-                    <div class="pl-32">
-                      <figure>
-                        <img
-                          class="img--sm"
-                          src="./assets/img/instagram.png"
-                          alt=""
-                        />
-                      </figure>
-                    </div>
-                  </div>
-                  <div class="position-relative flex alingItems mt-8">
-                    <div class="pr-4 text-opacity-40">
-                      <span class="text--xs">The Mint</span>
-                      <span class="minute--point-sm px-16 text--xs"
-                        >52 mins ago</span
-                      >
-                    </div>
-                    <div class="box-end pl-16">
-                      <i class="fa-solid fa-arrow-up-from-bracket pr-8"></i>
-                      <span class="pr-32 text--xs">Share</span>
-                      <i class="fa-solid fa-shield pr-8"></i>
-                      <span class="text--xs">Read Later</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- div4 -->
-              <div class="div4">
-                <div class="flex flex-column justifyAround p-16">
-                  <div class="flex mt-16">
-                    <div>
-                      <p class="font--500 text--xl mb-16">
-                        Petrol, diesel prices - July 6: Fuel prices unchanged
-                        after touching record high
-                      </p>
-
-                      <p class="text-opacity-60">
-                        The price of petrol remained unchanged on July 6 after
-                        reaching a new record high on the previous day,
-                        according to a price notification by state-owned..
-                      </p>
-                    </div>
-                  </div>
-                  <div class="position-relative flex alingItems mt-32">
-                    <div class="pr-4 text-opacity-40">
-                      <span class="text--xs">Radar 52</span>
-                      <span class="minute--point-sm px-16 text--xs"
-                        >1 hour ago</span
-                      >
-                    </div>
-                    <div class="box-end pl-16">
-                      <i class="fa-solid fa-arrow-up-from-bracket pr-8"></i>
-                      <span class="pr-32 text--xs">Share</span>
-                      <i class="fa-solid fa-shield pr-8"></i>
-                      <span class="text--xs">Read Later</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- div5 -->
-              <div class="div5">
-                <div class="flex flex-column justifyAround p-16">
-                  <div class="flex mt-16">
-                    <div>
-                      <p class="font--500 text--xl mb-16">
-                        Android smartphone users alert! Remove these 9 apps now
-                      </p>
-                      <p class="text-opacity-60">
-                        Stealer trojans were spread as harmless software..
-                      </p>
-                    </div>
-                    <div class="pl-32">
-                      <figure>
-                        <img
-                          class="img--sm"
-                          src="./assets/img/android.png"
-                          alt=""
-                        />
-                      </figure>
-                    </div>
-                  </div>
-                  <div class="position-relative flex alingItems mt-8">
-                    <div class="pr-4 text-opacity-40">
-                      <span class="text--xs">Live Mint</span>
-                      <span class="minute--point-sm px-16 text--xs"
-                        >2 hours ago</span
-                      >
-                    </div>
-                    <div class="box-end pl-16">
-                      <i class="fa-solid fa-arrow-up-from-bracket pr-8"></i>
-                      <span class="pr-32 text--xs">Share</span>
-                      <i class="fa-solid fa-shield pr-8"></i>
-                      <span class="text--xs">Read Later</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- div6 -->
-              <div class="div6">
-                <div class="flex flex-column justifyAround p-16">
-                  <div class="flex mt-16">
-                    <div>
-                      <p class="font--500 text--xl mb-16">
-                        How to install Windows 11 on almost any unsupported PC
-                      </p>
-
-                      <p class="text-opacity-60">
-                        Microsoft is allowing some unsupported computers..
-                      </p>
-                    </div>
-                    <div class="pl-32">
-                      <figure>
-                        <img
-                          class="img--sm"
-                          src="./assets/img/windows 11.png"
-                          alt=""
-                        />
-                      </figure>
-                    </div>
-                  </div>
-                  <div class="position-relative flex alingItems mt-8">
-                    <div class="pr-4 text-opacity-40">
-                      <span class="text--xs">The Mint</span>
-                      <span class="minute--point-sm px-16 text--xs"
-                        >3 hours ago</span
-                      >
-                    </div>
-                    <div class="box-end pl-16">
-                      <i class="fa-solid fa-arrow-up-from-bracket pr-8"></i>
-                      <span class="pr-32 text--xs">Share</span>
-                      <i class="fa-solid fa-shield pr-8"></i>
-                      <span class="text--xs">Read Later</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- div7 -->
-              <div class="div7">
-                <div class="flex flex-column justifyAround p-16">
-                  <div class="flex mt-16">
-                    <div>
-                      <p class="font--500 text--xl mb-16">
-                        This charging feature from Android phones may come to
-                        iPhone 13
-                      </p>
-
-                      <p class="text-opacity-60">
-                        You will always find a set of people who will say that..
-                      </p>
-                    </div>
-                    <div class="pl-32">
-                      <figure>
-                        <img
-                          class="img--sm"
-                          src="./assets/img/charging phone.png"
-                          alt=""
-                        />
-                      </figure>
-                    </div>
-                  </div>
-                  <div class="position-relative flex alingItems mt-8">
-                    <div class="pr-4 text-opacity-40">
-                      <span class="text--xs">Live Mint</span>
-                      <span class="minute--point-sm px-16 text--xs"
-                        >5 hours ago</span
-                      >
-                    </div>
-                    <div class="box-end pl-16">
-                      <i class="fa-solid fa-arrow-up-from-bracket pr-8"></i>
-                      <span class="pr-32 text--xs">Share</span>
-                      <i class="fa-solid fa-shield pr-8"></i>
-                      <span class="text--xs">Read Later</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div id="newsContainer" class="parent-box-1 mt-32"></div>
             <div class="profile-info flex justifyBetween mt-32">
               <div class="flex">
                 <i class="fa-solid fa-feather icon--sm mr-16"></i>
@@ -632,18 +323,25 @@
                 </div>
                 <div class="pt-32 flex justifyBetween">
                   <div>
-                    <p class="pb-8">Sunny</p>
-                    <p class="font--700 text--xxl">
-                      31 <sup class="text--xxs">o</sup> c
-                    </p>
+                    <p id="weatherCondition" class="pb-8"></p>
+                    <p id="temp" class="font--700 text--xxl"></p>
                   </div>
                   <div>
-                    <figure><img src="./assets/img/sun.svg" alt="" /></figure>
+                    <figure>
+                      <img id="weatherIcon" src="./assets/img/sun.svg" alt="" />
+                    </figure>
                   </div>
                 </div>
                 <div class="flex pt-16">
-                  <p class="pr-32 text--xxs">Celsius</p>
-                  <p class="text--xxs text-opacity-30">Fahrenheit</p>
+                  <button id="celsiusBtn" class="pr-32 text--xxs btnTemp">
+                    Celsius
+                  </button>
+                  <button
+                    id="fahrenheitBtn"
+                    class="text--xxs text-opacity-30 btnTemp"
+                  >
+                    Fahrenheit
+                  </button>
                 </div>
               </div>
               <!-- div 18 -->
@@ -709,6 +407,26 @@
           </aside>
         </div>
       </section>
+      <form id="modalContainer" class="p-16 scale-0">
+        <div><p class="text--xxl mb-16">Hesabınıza giriş edin</p></div>
+        <div class="flex text--lg">
+          <p class="mr-48 mb-16">Email</p>
+          <input id="email" type="email" />
+        </div>
+        <p id="emailErr"></p>
+        <div class="flex text--lg">
+          <p class="mr-48 mb-16">Şifrə</p>
+          <input id="password" type="password" />
+        </div>
+        <p id="passErr"></p>
+
+        <div>
+          <button type="button" id="cancelBtn" class="p-4 ml-32">Cancel</button>
+          <button id="acceptBtn" class="p-4">Ok</button>
+        </div>
+      </form>
     </main>
+    <script type="module" src="./script.js"></script>
+    <script type="module" src="login.js"></script>
   </body>
 </html>

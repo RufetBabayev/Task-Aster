@@ -23,3 +23,8 @@ button {
   width: 256px;
   height: 46px;
 }
+
+.btnTemp {
+  border: none;
+  background-color: white;
+}
